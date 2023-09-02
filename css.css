@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+nav {
+    background-color: black;
+    height: 7vh;
+    width: 98vw;
+    display: flex;
+    justify-content: space-between;  
+    border: 2px solid gold; 
+}
+
+ul{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 1vw 1vw 1vw 1vw;
+  
+}
+a{
+    color: gold;
+    
+    text-decoration: none;
+}
+nav img{
+    border-radius: 50%;
+    padding-bottom: 0.8vh;
+    
+}
+
+.search input{
+    height: 3vh;
+    width: 40vw;
+   margin-top: 10px;
+}
+.button{
+    
+    height: 2.5vh;
+    width: 4vw;
+    padding-top: 2vh;
+    padding-bottom: 0;
+    padding-left: 2vh;
+    padding-right: 7vh;
+    
+}
+/* header{
+    border: 2px solid gold;
+    width: 190vh;
+} */
+
+.left{
+    background-color: black;
+    color: gold;
+    height: 80vh;
+    width: 30vw;
+    justify-content: left;
+    font-family: 'Roboto', sans-serif;
+    /* border: 1px solid gold; */
+    margin-left: 20px;
+    
+}
+.right{
+    background-color: black;
+    color: gold;
+    height: 80vh;
+    width: 30vw;
+   justify-content: right;
+   font-family: 'Roboto', sans-serif;
+   padding-left: 8px;
+   /* border: 1px solid gold; */
+   
+   
+}
+.centre img{
+   
+    height: 85vh;
+    width: 32vw;
+justify-content: center;
+border: 1px solid gold;
+
+
+
+}
+.container{
+    /* height: 82vh; */
+    /* width: 95vw; */
+    display: flex;
+    background-color: black;
+    /* border: 2px solid gold; */
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: goldenrod;
+    border: 1px solid gold;
+    text-align: center;
+}
+.div2{
+    display: flex;
+    padding: 0 10px;
+    /* width: 98vw; */
+    max-width: 70vw;
+    
+
+}
+.div2 a{
+    padding: 3px;
+    
+    /* min-width: 0vw;
+    max-width: 70vw; */
+}
+/* .flex{
+    display: flex;
+} */
+
+.image img {
+    border-radius: 50%;
+    position: relative;
+animation: rightmovement 4s ease-in  1 forwards ;
+}
+@keyframes rightmovement {
+    from{
+top: 0vh;
+left: 5vw;
+
+
+    }
+    to{
+top: 0vh;
+left: 40vw ;
+
+    }
+    
+}
+.image2 img {
+    border-radius: 50%;
+    position: relative;
+animation: leftmovement 4s ease-in  1 forwards;
+}
+@keyframes leftmovement {
+    from{
+top:  0vh;
+left: 65vw;
+
+
+    }
+    to{
+top: 0vh;
+left: 43vw ;
+
+    }
+    
+}
+.flex{
+    display: flex;
+   
+}
+.flex h1{
+    text-align:center;
+    color: gold;
+    border: 0px;
+    animation: h1movement 4s  ease-in 1 forwards;
+    position: relative;
+}
+@keyframes h1movement {
+    from{
+top:  0px;
+left: 42vw;
+    }
+    to{
+top: 5vh;
+left: 42vw;
+
+    }
+    
+}
+
+/* .table1 table{
+    background-color: gold;
+    color: black;
+    height: 100%;
+    width: 10vw;
+    animation: rightmovement1 4s ease-in  1 forwards ;
+}
+@keyframes rightmovement1 {
+    from{
+top: 0px;
+left: 50px;
+
+
+    }
+    to{
+top: 0px;
+left: 500px;
+
+    }
+} */
