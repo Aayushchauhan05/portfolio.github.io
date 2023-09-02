@@ -236,3 +236,29 @@ footer{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
+@media only screen and (max-width: 800px) {
+    .image {
+    height: 138px;
+    width: 155px; ;
+    }
+    
+    
+
+
+  }
+    @media only screen and (max-width: 700px) {
+        .htmllogo{
+            width: 40vw;
+            flex-direction: column;
+                }
+                .csslogo{
+                    width: 40vw;
+                    flex-direction: column;
+                        }
+                        .jslogo{
+                            width: 40vw;
+                            margin-left: -93vw;
+                            margin-top: 98vw;
+                            padding: 50px;
+                                }
+    }
