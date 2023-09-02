@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="pro3.css">
+</head>
+<body>
+    <header>
+        <div class="headerbox">
+        <ul>
+            <li><a href="#"> Home</a></li>
+            <li><a href="#"> about</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+    </div>
+    </header>
+    <main>
+        <div class="box">
+        <div class="container">
+            <form action="action.php">
+                <label for="search bar"> name<sup>*</sup></label>
+                <br>
+                <input type="text" id="search bar" height="4px" length="50px" placeholder="enter your name">
+                <br>
+                <label for="email"> email<sup>*</sup></label>
+                <br>
+               <input type="email" name="enter your email" id="email"height="4px" width="50px" placeholder="enter your email">
+               <br>
+               <label for="phone number">phone number<sup>*</sup></label>
+               <br>
+               <input type="number" name="phone number" id="phone number" placeholder="enter your phone number">
+               <br>
+               <label for="password"> password</label>
+               <br>
+               <input type="password" name="password" id="password" placeholder="password">
+               <br>
+               <button type="submit"  id="submit" >submit</button>
+            </form>
+
+        </div>
+    </div>
+    
+    </main>
+    <script type="text/javascript">
+        document.getElementById("submit").onclick=function(){
+            event.preventDefault()
+            var username=document.getElementById("search bar").value;
+            var email=document.getElementById("email").value;
+            var phonenumber=document.getElementById("phone number").value;
+            var password=document.getElementById("password").value;
+            if(username=="aayushchauhan" && email== "aayushchauhan7@gmail.com" && phonenumber== 123456789 && password==1234)
+            {
+                alert("login sucessfully");
+            }
+            else{
+                alert("try again not valid input")
+            }
+        }
+
+    
+
+    </script>
+</body>
+</html>

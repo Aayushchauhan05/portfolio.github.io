@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aayush's portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+   <nav class="navbar">
+    <ul>
+        <li><a href="#Intro">Intro</a></li>
+        <li><a href="#Project">Project</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        <li><a href="#Skills">Skills</a></li>
+    </ul>
+</nav>
+</header>
+
+<main>
+    <div id="Intro">
+        <div class="shadow">
+        <img src="https://media.licdn.com/dms/image/D4D35AQFsgf2qJizs4g/profile-framedphoto-shrink_400_400/0/1690364484811?e=1694246400&v=beta&t=_YZac8ISlKpayIlFkbUN8OnxVbM9OUiT2g6vou0e680 " class="image"></div>
+        <h1> hello!</h1>
+        <p class="p1">Hello, I am Aayush Chauhan, a dedicated student pursuing a degree in Computer Science and Engineering at ABES Institute of Technology. With a passion for crafting immersive digital experiences, I have ventured into the world of web development, specializing in front-end development. I am driven by a creative spark and a desire to bring innovation to the digital realm, making the web more visually appealing and user-friendly. Join me on my journey as I continue to explore and expand my skills in the ever-evolving field of front-end development.</p>
+    </div>
+    <div id="Project"> 
+       <span><h1 class="h1">Project</h1></span> 
+    </div>
+    <div id="projectdiv"> 
+        <a href="project-3-form/pro3.html"><img src="Screenshot.jpg.png" alt="" class="logo1"> </a>
+        <a href="project-2/pro2.html"> <img src="Screenshot (48).png" class="logo1"></a>
+        
+        <a href="project-1/html.html"> <img src="Screenshot (49).png" class="logo2"></a>
+    </div>
+   <div id="Skills">
+<h1 id="H1">Skills </h1>
+   </div>
+   <div id="skilldiv">
+    <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="" class="htmllogo">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/800px-CSS.3.svg.png" alt="" class="csslogo">
+    <img src="https://static.javatpoint.com/images/javascript/javascript_logo.png" alt="" class="jslogo">
+   </div>
+   <div id="Contact">
+    <span class="span1"><h1>Contact</h1></span>
+   </div>
+   <div class="call">
+    <div class="box">
+    <form action="action.php">
+        <input type="text" placeholder="enter name" required id="inputtxt"><br><br>
+        <input type="email" name="email id" id="emailid" placeholder="enter email" required><br><br>
+        <input type="number" name="phonenumber" id="phonenumber" placeholder="enter phonenumber" required><br><br>
+        <textarea id="feedback" name="feedback" rows="4" cols="50" required placeholder="please give your feedback" class="feed"></textarea><br><br>
+        <button type="submit">submit</button>
+    </form>
+</div>
+   </div>
+</main>
+<footer>
+    <p> copyright &copy; contain personal information</p>
+</footer>
+<script type="text/javascript">
+document.getElementById("submit").onclick=function(){
+    event.preventDefault()
+   var name= document.getElementById(inputtxt).value;
+   var email=document.getElementById("emailid").value;
+   var number= document.getElementById("phonenumber").value;
+   var feedback=document.getElementsByClassName("feed").value
+   
+}
+</script>
+</body>
+</html>
